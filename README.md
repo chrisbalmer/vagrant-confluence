@@ -24,4 +24,4 @@ Since this is just a small portable Confluence install, I recommend choosing `Ma
 On the next screen, configure your admin account. Then follow the tutorial screens to finish the build.
 
 ## Notes
-Once this is completed, you can run `vagrant destroy` and then `vagrant up` and all of your data will still be there. You will no longer have to complete the wizard after building the vagrant box. The data for this install is kept in either `confluence-localdb` or `confluence-mysqldb` depending on which option you chose. (Right now there is only the localdb option, I have not added in the mysql pieces yet).
+Once this is completed, you can run `vagrant destroy` and then `vagrant up` and all of your data will still be there. You will no longer have to complete the wizard after building the vagrant box. The data for this install is kept in `confluence/` and is mapped to the correct folder at `vagrant up` for the install.

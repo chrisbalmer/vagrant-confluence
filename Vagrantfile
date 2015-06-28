@@ -91,7 +91,7 @@ Vagrant.configure(2) do |config|
 ################################################################################
     #confluence.vm.synced_folder "opt/atlassian/confluence/",
     #                            "/opt/atlassian/confluence/"
-    confluence.vm.synced_folder "confluence-localdb/",
+    confluence.vm.synced_folder "confluence/",
                                 "/var/atlassian/application-data/confluence/"
 #                                                                              #
 #                                                                              #
